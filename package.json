@@ -1,0 +1,22 @@
+{
+  "name": "overwatch.js",
+  "version": "1.0.0",
+  "description": "An API wrapper for Overwatch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-Ruston/overwatch.js.git"
+  },
+  "author": "Jake Ruston <rjake@hotmail.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jake-Ruston/overwatch.js/issues"
+  },
+  "homepage": "https://github.com/Jake-Ruston/overwatch.js#readme",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  }
+}
