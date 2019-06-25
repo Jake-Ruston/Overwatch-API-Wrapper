@@ -9,7 +9,7 @@ const Profile = require('./Profile');
  * @param {string} platform The platform of the player
  * @returns {Promise<Object>} Object containing information of the player
  */
-module.exports = async (username, region, platform) => {
+module.exports = async (username, region, platform = 'pc') => {
   username = username.replace('#', '-');
   region = region.toLowerCase();
   platform = platform.toLowerCase();
